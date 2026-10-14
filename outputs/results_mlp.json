@@ -1,0 +1,7 @@
+{
+  "model": "mlp",
+  "best_val_loss": 2.0923611323038735,
+  "test_loss": 1.9571186701456706,
+  "test_next_note_acc": 0.22916666666666666,
+  "final_train_loss": 0.0017262489127460867
+}
