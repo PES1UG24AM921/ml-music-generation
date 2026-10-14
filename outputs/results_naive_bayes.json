@@ -1,0 +1,16 @@
+{
+  "train": {
+    "events_evaluated": 2048,
+    "acc_exact_pitch": 0.16845703125,
+    "acc_pitch_class": 0.24365234375,
+    "baseline_most_common_note": 0.16796875,
+    "baseline_flat_random": 0.0166015625
+  },
+  "test": {
+    "events_evaluated": 256,
+    "acc_exact_pitch": 0.171875,
+    "acc_pitch_class": 0.23046875,
+    "baseline_most_common_note": 0.17578125,
+    "baseline_flat_random": 0.01953125
+  }
+}
