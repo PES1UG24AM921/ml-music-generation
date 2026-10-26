@@ -1,0 +1,7 @@
+{
+  "model": "lstm",
+  "best_val_loss": 3.180262514477807,
+  "test_loss": 3.1612341899780345,
+  "test_next_note_acc": 0.18520383693045564,
+  "final_train_loss": 2.410507735210868
+}
