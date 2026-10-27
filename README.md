@@ -1,7 +1,7 @@
 # Generating Music with Machine Learning
 UE24CS352A Machine Learning mini-project, PES University, Sec-H Team H-10 (problem statement 22)
 
-**Team:** Rohan Agarwal (PES1UG24AM921), Pranav Prabhakar (PES1UG24AM463)
+**Team:** Rohan Agarwal (PES1UG24AM921), Rolla N Harsha Vardhan (PES1UG24AM446)
 
 Reference project: *Music Composition with Machine Learning*, Kang, Kim, Ringdahl (Stanford CS229, 2018)
 https://cs229.stanford.edu/proj2018/report/18.pdf
@@ -59,11 +59,11 @@ Metrics come from `outputs/results_*.json`.
 |---|---|---|---|---|
 | Naive Bayes | - | - | 12.3% exact pitch (19.4% pitch class) | Baselines on the same events: most-common-note 5.4%, flat random 1.7%. Train accuracy 12.8% |
 | MLP | 1.498 (epoch 15) | 3.353 | 15.1% next-note | Best val loss 3.435 at epoch 1, then val loss rises: overfitting |
-| LSTM | TBD | TBD | TBD | |
-| Encoder-decoder | TBD | TBD | TBD | Accuracy is per token over 8 predicted notes |
+| LSTM | 2.411 (epoch 15) | 3.161 | 18.5% next-note | Best val loss 3.180 around epoch 5, then val loss rises: overfitting, but less than the MLP |
+| Encoder-decoder | 2.167 (epoch 15) | 3.514 | 11.9% per token | Best val loss 3.563 at epoch 1, then val loss rises steadily: strong overfitting. Accuracy is per token over 8 predicted notes |
 
 Naive Bayes counts a hit if its guess matches any right-hand note of the event, and the neural models predict the top note of the next event, so their accuracies are not directly comparable. Seq2seq accuracy is per token over 8 notes.
 
 ## Contributions
 - Rohan: environment and data setup, Naive Bayes and MLP runs and results, README, write-up draft
-- Harsha: LSTM and encoder-decoder (seq2seq) training, results and loss plots, generated MIDI, presentation slides
+- Rolla N Harsha Vardhan: LSTM and encoder-decoder (seq2seq) training, results and loss plots, generated MIDI, presentation slides
