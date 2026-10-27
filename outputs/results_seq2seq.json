@@ -1,0 +1,7 @@
+{
+  "model": "seq2seq",
+  "best_val_loss": 3.5627700626852574,
+  "test_loss": 3.5144132148867295,
+  "test_next_note_acc": 0.11850528465049244,
+  "final_train_loss": 2.1666960882793633
+}
